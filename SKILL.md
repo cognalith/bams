@@ -1,9 +1,11 @@
 ---
 name: bams
-description: >
-  Bi-Temporal Agent Memory System. Use when managing agent memory,
-  performing heartbeat curation, writing experiences, or reviewing
-  memory tiers. Triggers: /memory, /bams, /heartbeat
+description: Bi-Temporal Agent Memory System — cognitive memory architecture for AI agents. Three-tier memory (Hot/Warm/Cold) with decay-weighted retrieval, heartbeat curation cycles, and bi-temporal tracking. Use when managing agent memory, writing experiences, performing heartbeat curation, or reviewing memory tiers. Replaces infinite data hoarding with strategic relevance filtering.
+license: MIT
+compatibility: Works with Claude Code, OpenClaw, Cursor, Codex, and any agent that reads/writes markdown files.
+metadata:
+  author: cognalith
+  version: "1.0.0"
 ---
 
 # Bi-Temporal Agent Memory System (BAMS)
