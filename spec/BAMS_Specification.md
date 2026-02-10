@@ -94,6 +94,8 @@ Score = (w_sim * Similarity) + (w_rec * e^(-t/HL)) + (w_freq * ln(1 + Count))
 - `HL` = Domain-specific half-life
 - `t` = Age of memory since last access
 
+**Recommended defaults:** `w_sim = 0.40`, `w_rec = 0.35`, `w_freq = 0.25`. These are tunable starting values; adjust based on the agent's domain and retrieval patterns.
+
 ### Exponential Decay vs. Power Function
 
 While ACT-R suggests a power function, BAMS uses the Exponential Decay Function (e^{-lambda*t}) for query-time performance. The lambda constant is tuned according to the memory tier (Hot, Warm, Cold).

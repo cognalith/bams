@@ -44,6 +44,8 @@
 ## Retrieval Boost Log
 
 > Memories accessed this session. Each access resets the decay clock (Matthew Effect).
+>
+> **Pruning rule:** During micro-heartbeats, remove entries older than the current session to prevent unbounded growth of this log.
 
 *(auto-populated during session)*
 

@@ -35,7 +35,7 @@ During heartbeat reviews, classify memories as:
 - **Tested** — Applied and verified through experience → boost, graduate to Warm
 - **Absorbed** — Read without application → allow to decay unless reinforced
 
-Full BAMS specification: `memory/reference/BAMS_Specification.md` (or see `spec/` in the BAMS repo)
+Full BAMS specification: `../../spec/BAMS_Specification.md` (relative to this template; also available in the `spec/` directory of the BAMS repository)
 
 ---
 
